@@ -1,0 +1,21 @@
+{
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "files.autoSave": "afterDelay",
+    "plantuml.server": "http://localhost:8080",
+    "plantuml.exportConcurrency": 4,
+    "settingsSync.ignoredSettings": [
+        "-plantuml.render",
+        "-plantuml.server"
+    ],
+    "plantuml.render": "PlantUMLServer",
+    "window.zoomLevel": 2,
+    "markdown.extension.orderedList.autoRenumber": false,
+    "workbench.activityBar.visible": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}
