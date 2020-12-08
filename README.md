@@ -4,9 +4,13 @@ Procedure for recovering the WSL subsystem on a Windows laptop
 
 ## Steps
 
+### /usr/local/bin
+
+currently installed stuff, per `usr_local_bin`
+
 ### ZSH
 
-restore .zshrc under home
+restore .zshrc under ~/.zshrc
 
 ### VSCode
 

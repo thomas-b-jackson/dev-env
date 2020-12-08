@@ -1,0 +1,36 @@
+/usr/local/bin > for f in "$folder"/usr/local/bin/*
+do
+  echo "$f"
+done
+
+/usr/local/bin/VBoxManage.sh
+/usr/local/bin/aws
+/usr/local/bin/aws_completer
+/usr/local/bin/chardetect
+/usr/local/bin/config
+/usr/local/bin/duck
+/usr/local/bin/fluxctl
+/usr/local/bin/futurize
+/usr/local/bin/gitlab
+/usr/local/bin/gitlab-runner
+/usr/local/bin/helm
+/usr/local/bin/iam
+/usr/local/bin/img
+/usr/local/bin/k2tf
+/usr/local/bin/k3d
+/usr/local/bin/kubectl
+/usr/local/bin/kubectx
+/usr/local/bin/kubens
+/usr/local/bin/kubeval
+/usr/local/bin/kustomize
+/usr/local/bin/livereload
+/usr/local/bin/markdown_py
+/usr/local/bin/mkdocs
+/usr/local/bin/nltk
+/usr/local/bin/pasteurize
+/usr/local/bin/terraform
+/usr/local/bin/terraform_0.13.0
+/usr/local/bin/tf2pulumi
+/usr/local/bin/tls
+/usr/local/bin/tqdm
+/usr/local/bin/yq
