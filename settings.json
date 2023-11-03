@@ -1,21 +1,38 @@
 {
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all",
-    "files.autoSave": "afterDelay",
-    "plantuml.server": "http://localhost:8080",
-    "plantuml.exportConcurrency": 4,
-    "settingsSync.ignoredSettings": [
-        "-plantuml.render",
-        "-plantuml.server"
-    ],
-    "plantuml.render": "PlantUMLServer",
-    "window.zoomLevel": 2,
-    "markdown.extension.orderedList.autoRenumber": false,
-    "workbench.activityBar.visible": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ]
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "terraform.languageServer": {
+    "external": false,
+    "pathToBinary": "",
+    "args": ["serve"],
+    "maxNumberOfProblems": 100,
+    "trace.server": "off"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "cSpell.userWords": ["anoynmous", "seach", "tareget"],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.foldingMaximumRegions": 10000,
+  "terraform.languageServer.enable": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "window.zoomLevel": 2,
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "normal",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
